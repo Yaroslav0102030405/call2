@@ -36,7 +36,7 @@ body {
 @media screen and (max-width: 460px) {
   .calculator {
     max-width: 320px;
-    max-height: 680px;
+    /* max-height: 680px; */
   }
 }
 
