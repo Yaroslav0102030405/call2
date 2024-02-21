@@ -1,12 +1,44 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Calculator</title>
     <link rel="stylesheet" href="./styles.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <script src="./calculator.js" type="module"></script>
+    <div class="calculator">
+      <div class="display">0</div>
+      <div class="buttons">
+        <button class="button btn-grey">AC</button>
+        <button class="button btn-grey">+/-</button>
+        <button class="button btn-grey">%</button>
+        <button class="button btn-orange">/</button>
+        <button class="button">7</button>
+        <button class="button">8</button>
+        <button class="button">9</button>
+        <button class="button btn-orange">*</button>
+        <button class="button">4</button>
+        <button class="button">5</button>
+        <button class="button">6</button>
+        <button class="button btn-orange">-</button>
+        <button class="button">1</button>
+        <button class="button">2</button>
+        <button class="button">3</button>
+        <button class="button btn-orange">+</button>
+        <button class="button btn-zero">0</button>
+        <button class="button">.</button>
+        <button class="button btn-orange">=</button>
+      </div>
+    </div>
+    <script src="./main.js" type="module"></script>
   </body>
 </html>
