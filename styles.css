@@ -4,6 +4,8 @@
 }
 
 body {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
   /* background: rgb(118, 9, 121);
   background: linear-gradient(
     90deg,
@@ -11,16 +13,30 @@ body {
     rgba(255, 243, 0, 1) 100%
   ); */
   padding: 10px;
-
+  /* 
   background: rgb(63, 94, 251);
   background: radial-gradient(
     circle,
     rgba(63, 94, 251, 1) 0%,
     rgba(252, 70, 107, 1) 100%
+  ); */
+
+  /* background: rgb(240, 76, 21);
+  background: linear-gradient(
+    333deg,
+    rgba(240, 76, 21, 1) 6%,
+    rgba(255, 243, 0, 1) 100%
+  ); */
+
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
   );
 
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
+  cursor: url("/cursor/navigation.png"), auto;
 }
 
 .calculator {
@@ -36,7 +52,7 @@ body {
 @media screen and (max-width: 460px) {
   .calculator {
     max-width: 320px;
-    /* max-height: 680px; */
+    max-height: 680px;
   }
 }
 
@@ -51,6 +67,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
+  cursor: url("/cursor/pencil.png"), auto;
 }
 
 .button {
@@ -62,6 +80,8 @@ body {
   margin: 6px 6px;
   font-size: 30px;
   background-color: rgba(128, 128, 128, 0.372);
+
+  cursor: url("/cursor/pencil.png"), auto;
 }
 
 @media screen and (max-width: 460px) {
@@ -77,10 +97,12 @@ body {
 
 .btn-grey {
   background-color: gray;
+  cursor: url("/cursor/delete.png"), auto;
 }
 
 .btn-orange {
   background-color: orange;
+  cursor: url("/cursor/check.png"), auto;
 }
 
 .btn-zero {
