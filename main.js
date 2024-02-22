@@ -1,9 +1,11 @@
 const display = document.querySelector(".display");
 const buttons = Array.from(document.querySelectorAll(".button"));
 
+// const buttons = document.querySelectorAll(".button");
+
 // const calculator = document.querySelector(".calculator");
 
-// calculator.addEventListener("click", onClick);
+// buttons.addEventListener("click", onClick);
 
 // function onClick(e) {
 //   switch (e.target.innerText) {
@@ -35,7 +37,7 @@ const buttons = Array.from(document.querySelectorAll(".button"));
 
 buttons.map((button) => {
   button.addEventListener("click", (e) => {
-    console.log(e.target.innerText);
+    // console.log(e.target.innerText);
     // console.log(e.target);
 
     switch (e.target.innerText) {
