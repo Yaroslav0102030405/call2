@@ -35,9 +35,11 @@ const buttons = Array.from(document.querySelectorAll(".button"));
 //   }
 // }
 
+//
+
 buttons.map((button) => {
   button.addEventListener("click", (e) => {
-    // console.log(e.target.innerText);
+    console.log(e.target.innerText);
     // console.log(e.target);
 
     switch (e.target.innerText) {
